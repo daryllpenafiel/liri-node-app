@@ -77,7 +77,7 @@ TWITTER_ACCESS_TOKEN_SECRET=your-twitter-access-token-secret
 
 * This file will be used by the `dotenv` package to set what are known as environment variables to the global `process.env` object in node. These are values that are meant to be specific to the computer that node is running on, and since we are gitignoring this file, they won't be pushed to github &mdash; keeping our API key information private.
 
-* If someone wanted to clone your app from github and run it themselves, they would need to supply their own `.env` file for it to work.-->
+* If someone wanted to clone your app from github and run it themselves, they would need to supply their own `.env` file for it to work.
 
 5. Get your Twitter API keys by following these steps:
 
@@ -93,7 +93,7 @@ TWITTER_ACCESS_TOKEN_SECRET=your-twitter-access-token-secret
      
      * Copy the access token key and secret displayed at the bottom of the next screen. Paste them into your .env file, replacing the placeholders for `your-twitter-access-token-key` and `your-twitter-access-token-secret`.
 
-<!--6. Make a file called `random.txt`.
+6. Make a file called `random.txt`.
 
    * Inside of `random.txt` put the following in with no extra characters or white space:
      
@@ -104,7 +104,7 @@ TWITTER_ACCESS_TOKEN_SECRET=your-twitter-access-token-secret
 8. At the top of the `liri.js` file, add code to read and set any environment variables with the dotenv package:
 
 ```js
-require("dotenv").config();-->
+require("dotenv").config();
 ```
 
 9. Add the code required to import the `keys.js` file and store it in a variable.
@@ -116,7 +116,7 @@ require("dotenv").config();-->
   var client = new Twitter(keys.twitter);
   ```
 
-<!-- 10. Make it so liri.js can take in one of the following commands:
+ 10. Make it so liri.js can take in one of the following commands:
 
     * `my-tweets`
 
