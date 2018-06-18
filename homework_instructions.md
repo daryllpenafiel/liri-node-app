@@ -180,7 +180,7 @@ require("dotenv").config();
 
    * Step Three: Once logged in, navigate to <https://developer.spotify.com/my-applications/#!/applications/create> to register a new application to be used with the Spotify API. You can fill in whatever you'd like for these fields. When finished, click the "complete" button.
 
-   * Step Four: On the next screen, scroll down to where you see your client id and client secret. Copy these values down somewhere, you'll need them to use the Spotify API and the [node-spotify-api package](https://www.npmjs.com/package/node-spotify-api).  -->
+   * Step Four: On the next screen, scroll down to where you see your client id and client secret. Copy these values down somewhere, you'll need them to use the Spotify API and the [node-spotify-api package](https://www.npmjs.com/package/node-spotify-api).  
 
 
 4. `node liri.js do-what-it-says`
@@ -191,7 +191,7 @@ require("dotenv").config();
      
      * Feel free to change the text in that document to test out the feature for other commands.
 
-### BONUS
+<!--### BONUS
 
 * In addition to logging the data to your terminal/bash window, output the data to a .txt file called `log.txt`.
 
@@ -231,4 +231,4 @@ After completing the homework please add the piece to your portfolio. Make sure 
 
 If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
 
-**Good Luck!**
+**Good Luck!**-->
